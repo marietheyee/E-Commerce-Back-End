@@ -23,3 +23,10 @@ This app will allow users to add, delete, update and view categories, products, 
 * Insomnia
 
 # Video LInks
+
+(Please note: I still don't know Insomnia very well, so you might see some error messages. My immediate goal is to keep learning about it.)
+
+https://www.loom.com/share/029b984e887241da889df9b6737412db
+
+# Screen Shots
+

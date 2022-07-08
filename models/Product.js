@@ -15,17 +15,22 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    product_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'product',
-        key: 'id'
-      }
+  
+    product_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    tag_id: {
+    price: {
+      type: DataTypes.INTEGER,
+
+    },
+    stock: {
+      type: DataTypes.INTEGER,
+    },
+   category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'tag',
+        model: 'category',
         key: 'id'
       }
     }
@@ -41,3 +46,4 @@ Product.init(
 );
 
 module.exports = Product;
+//id, product_name, price, stock, category_id 
